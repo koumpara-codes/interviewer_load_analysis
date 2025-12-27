@@ -97,4 +97,16 @@ GROUP BY
     interviewer_name
 ORDER BY
     total_scorecards_submitted DESC;
+```
 
+### 5. Recommendations:
+The successful quantification of the workload disparity leads directly to the following set of actionable recommendations. The priority is to solve the bottleneck before making performance judgments.
+
+1.  **Utilize Interviewers C and D's non-onsite availability (paternity leave, part-time status) with recorded, asynchronous interviews or flexible remote evening slots.**
+    --> Expected Impact: Immediately reduces Interviewer A and B’s collective load by $\approx$ 30-40% and speeds up candidate time-to-hire.
+2. **Initiate a mandatory calibration session focused on Interviewer A (highest volume, lowest rate) and Interviewer C (medium volume, highest rate).**
+    --> Ensures a standardized bar is applied across the highest and lowest performers, reducing inconsistency risk.
+4.  **Enforce a clean, non-text based input (e.g., a mandatory dropdown with 'Hire' / 'No Hire') on the scorecard platform.**
+    --> Eliminates reliance on complex SQL logic (ILIKE) and improves data integrity for future analysis.
+5. **Implement weekly tracking of Interviews Per Week per Interviewer and correlate this with their pass rate trend.**
+    --> Provides early signals for burnout risk before it impacts candidate assessment quality.
