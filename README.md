@@ -4,6 +4,10 @@
 
 This project provides a data-driven analysis of the Engineering Manager (EM) System Design interview pipeline (EMEA, 2025). I identified and quantified a critical **workload disparity** among our Staff Engineers due to operational constraints (limited availability and rigid scheduling). The analysis confirmed that this bottleneck resulted in $\approx 65\%$ of the total workload being handled by just two engineers. This compromised the statistical reliability of the performance data and risked interviewer burnout. This analysis provides actionable recommendations to stabilize workload and improve data quality for high-stakes hiring decisions.
 
+[![Tool](https://img.shields.io/badge/SQL-Advanced-blue.svg)](https://www.mysql.com/)
+[![Tool](https://img.shields.io/badge/BI_Tool-Looker%20Studio-F8A229.svg)](https://lookerstudio.google.com/)
+[![Skill](https://img.shields.io/badge/Skill-Business_Justification-green.svg)](#business-recommendation)
+
 ---
 
 ## 1. Project Overview & Context
